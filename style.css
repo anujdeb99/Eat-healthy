@@ -7,3 +7,27 @@
     background-size: cover;
     height: 470px;
 }
+.hover-button ul {
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+
+}
+.hover-button ul li{
+    margin-top: 30px;
+
+}
+.hover-button ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    background-color: tomato;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 2s;
+}
